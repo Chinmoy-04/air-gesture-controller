@@ -1,0 +1,34 @@
+# Virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Files not listed in README.md
+PROJECT_CONTEXT.md
+PRESENTATION_SCRIPT.md
+MODEL_PERFORMANCE.html
+_ppt_extract.txt
+train.py
+main.py
+updated dataset/
+*.mp4
+*.pptx
+*.pdf
+Recording*
+
+# Training runs — keep only final best.pt (added explicitly)
+runs/detect/**/*
+!runs/detect/runs/
+runs/detect/runs/**/*
+!runs/detect/runs/detect/
+runs/detect/runs/detect/**/*
+!runs/detect/runs/detect/train-best-p2/
+runs/detect/runs/detect/train-best-p2/**/*
+!runs/detect/runs/detect/train-best-p2/weights/
+runs/detect/runs/detect/train-best-p2/weights/**/*
+!runs/detect/runs/detect/train-best-p2/weights/best.pt

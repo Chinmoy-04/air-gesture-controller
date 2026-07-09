@@ -1,0 +1,11 @@
+path: D:/AISD/yolo_data
+train: train/images
+val: val/images
+nc: 6
+names:
+- fist_close
+- index_finger_up
+- open_palm
+- thumbs_down
+- thumbs_up
+- two_fingers

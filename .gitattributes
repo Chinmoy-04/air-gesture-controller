@@ -1,0 +1,5 @@
+yolo_data/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+yolo_data/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+yolo_data/**/*.png filter=lfs diff=lfs merge=lfs -text
+yolo_data/**/*.webp filter=lfs diff=lfs merge=lfs -text
+runs/**/*.pt filter=lfs diff=lfs merge=lfs -text
