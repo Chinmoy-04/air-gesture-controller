@@ -535,4 +535,4 @@ After switching, the VNC service must be re-enabled — Wayland and X11 each use
 
 ---
 
-*AI and Software Development course project — Deggendorf Institute of Technology, 2026*
+*AI and Software Development course project — Deggendorf Institute of Technology, 2026.*
